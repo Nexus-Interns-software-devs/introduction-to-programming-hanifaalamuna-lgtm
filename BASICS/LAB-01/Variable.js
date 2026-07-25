@@ -1,0 +1,13 @@
+// Personal Information
+
+const myName = "Hanifa";
+const myAge = 19;
+const isStudent = true;
+const favoriteProgrammingLanguage = "JavaScript";
+
+// Output
+
+console.log("Name:", myName);
+console.log("Age:", myAge);
+console.log("Student:", isStudent);
+console.log("Favorite Programming Language:", favoriteProgrammingLanguage);
