@@ -1,0 +1,26 @@
+// TICKET-04: Number Guessing Game Logic
+
+// Declare the secret number
+const secretNumber = 42;
+
+// Function to check the player's guess
+function checkGuess(guess) {
+    if (guess > secretNumber) {
+        return "Too high";
+    } else if (guess < secretNumber) {
+        return "Too low";
+    } else {
+        return "Correct! 🎉";
+    }
+}
+
+// Display the secret number
+console.log("Secret number:", secretNumber);
+console.log("");
+
+// Test the function with multiple guesses
+console.log("Guess 50:", checkGuess(50));
+console.log("Guess 30:", checkGuess(30));
+console.log("Guess 42:", checkGuess(42));
+console.log("Guess 100:", checkGuess(100));
+console.log("Guess 1:", checkGuess(1));
